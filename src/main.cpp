@@ -4,10 +4,10 @@
 #include <WiFiUdp.h>
 
 // WiFi network name and password:
-const char * networkName = "Huster2.4";
-const char * networkPswd = "N11ico11e";
+const char * networkName = "Name";
+const char * networkPswd = "Password";
 
-const char * udpBroadcastAddress = "192.168.1.255";
+const char * udpBroadcastAddress = "https://remotemonitoringsystems.ca/broadcast.php";
 const int udpPort = 3333;
 
 //Are we currently connected?
